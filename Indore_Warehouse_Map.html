@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_258451a4906d509ee51e9f5cab7ff899 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_258451a4906d509ee51e9f5cab7ff899" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_258451a4906d509ee51e9f5cab7ff899 = L.map(
+                "map_258451a4906d509ee51e9f5cab7ff899",
+                {
+                    center: [22.7196, 75.8577],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e0e050bd2873f5a674bc921944d037e6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_258451a4906d509ee51e9f5cab7ff899);
+        
+    
+            var feature_group_55fa31db7b3d6722ca0e780d580fe0d7 = L.featureGroup(
+                {}
+            ).addTo(map_258451a4906d509ee51e9f5cab7ff899);
+        
+    
+            var marker_d65a52f10f97765e432aae727a288a14 = L.marker(
+                [22.9582, 76.0548],
+                {}
+            ).addTo(feature_group_55fa31db7b3d6722ca0e780d580fe0d7);
+        
+    
+            var icon_dcd3861b921d3636de6037d2d8254bba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d65a52f10f97765e432aae727a288a14.setIcon(icon_dcd3861b921d3636de6037d2d8254bba);
+        
+    
+            marker_d65a52f10f97765e432aae727a288a14.bindTooltip(
+                `<div>
+                     Rupakhedi, Indore (Dewas)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1db6726da48c76d5f45b144ebcd22d99 = L.marker(
+                [23.0302, 76.3414],
+                {}
+            ).addTo(feature_group_55fa31db7b3d6722ca0e780d580fe0d7);
+        
+    
+            var icon_5a77d84a224197c0939255bf9d7c8951 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1db6726da48c76d5f45b144ebcd22d99.setIcon(icon_5a77d84a224197c0939255bf9d7c8951);
+        
+    
+            marker_1db6726da48c76d5f45b144ebcd22d99.bindTooltip(
+                `<div>
+                     Dewas–Bhopal Bypass
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2b1cde3e0c41d42b4ff4eb9399cd048 = L.marker(
+                [22.5975, 75.6231],
+                {}
+            ).addTo(feature_group_55fa31db7b3d6722ca0e780d580fe0d7);
+        
+    
+            var icon_2442c6e18d2ef86778a5148c96cdadf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b2b1cde3e0c41d42b4ff4eb9399cd048.setIcon(icon_2442c6e18d2ef86778a5148c96cdadf4);
+        
+    
+            marker_b2b1cde3e0c41d42b4ff4eb9399cd048.bindTooltip(
+                `<div>
+                     MMLP Pithampur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_2c1fdbd4526213cf5fb9fc830aa223b7 = L.featureGroup(
+                {}
+            ).addTo(map_258451a4906d509ee51e9f5cab7ff899);
+        
+    
+            var marker_d2137297d3a5e0047df8a39c95e64721 = L.marker(
+                [22.6439, 75.8145],
+                {}
+            ).addTo(feature_group_2c1fdbd4526213cf5fb9fc830aa223b7);
+        
+    
+            var icon_75decccc19fd9854fca5b334dd6ae48b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d2137297d3a5e0047df8a39c95e64721.setIcon(icon_75decccc19fd9854fca5b334dd6ae48b);
+        
+    
+            marker_d2137297d3a5e0047df8a39c95e64721.bindTooltip(
+                `<div>
+                     Empire Logistic Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_995bef6cb09c9597260306e0a6ac7f29 = L.marker(
+                [22.6711, 75.8662],
+                {}
+            ).addTo(feature_group_2c1fdbd4526213cf5fb9fc830aa223b7);
+        
+    
+            var icon_37d9067fb24af5ea29830e39a83005c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_995bef6cb09c9597260306e0a6ac7f29.setIcon(icon_37d9067fb24af5ea29830e39a83005c0);
+        
+    
+            marker_995bef6cb09c9597260306e0a6ac7f29.bindTooltip(
+                `<div>
+                     JRG Logistics Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65fe6b6a31de553ee5ffc40de45af909 = L.marker(
+                [22.7355, 75.8833],
+                {}
+            ).addTo(feature_group_2c1fdbd4526213cf5fb9fc830aa223b7);
+        
+    
+            var icon_5257ab5f177066ed37e1e9321237d6e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_65fe6b6a31de553ee5ffc40de45af909.setIcon(icon_5257ab5f177066ed37e1e9321237d6e6);
+        
+    
+            marker_65fe6b6a31de553ee5ffc40de45af909.bindTooltip(
+                `<div>
+                     Sam Industries
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1ad2655bc5cf1ef473cdbd943906c98 = L.marker(
+                [22.7602, 75.857],
+                {}
+            ).addTo(feature_group_2c1fdbd4526213cf5fb9fc830aa223b7);
+        
+    
+            var icon_56ec9cd6fa3d44b42434dc8a9c9dae5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c1ad2655bc5cf1ef473cdbd943906c98.setIcon(icon_56ec9cd6fa3d44b42434dc8a9c9dae5b);
+        
+    
+            marker_c1ad2655bc5cf1ef473cdbd943906c98.bindTooltip(
+                `<div>
+                     Shiv Logistics Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77eb9a513374425f3bc25dfcf3a35fa7 = L.marker(
+                [22.7482, 75.8829],
+                {}
+            ).addTo(feature_group_2c1fdbd4526213cf5fb9fc830aa223b7);
+        
+    
+            var icon_c00d55f1329f29a94317e2af86a1e3f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "truck", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_77eb9a513374425f3bc25dfcf3a35fa7.setIcon(icon_c00d55f1329f29a94317e2af86a1e3f4);
+        
+    
+            marker_77eb9a513374425f3bc25dfcf3a35fa7.bindTooltip(
+                `<div>
+                     BRG Logistics
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_3107cdfc764e9e5eb25509b846a89b5a = L.featureGroup(
+                {}
+            ).addTo(map_258451a4906d509ee51e9f5cab7ff899);
+        
+    
+            var poly_line_74ee39a1711f14d7ef31c9cc79051fd2 = L.polyline(
+                [[22.5975, 75.6231], [22.7196, 75.8577], [22.9582, 76.0548]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_3107cdfc764e9e5eb25509b846a89b5a);
+        
+    
+            poly_line_74ee39a1711f14d7ef31c9cc79051fd2.bindTooltip(
+                `<div>
+                     NH-52
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2e5d7b212aff10014725d662e1c86217 = L.polyline(
+                [[22.6439, 75.8145], [22.7355, 75.8833], [23.0302, 76.3414]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_3107cdfc764e9e5eb25509b846a89b5a);
+        
+    
+            poly_line_2e5d7b212aff10014725d662e1c86217.bindTooltip(
+                `<div>
+                     NH-47
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6dabaaa6685a39a345567662f0185d6b = L.polyline(
+                [[22.6711, 75.8662], [22.7602, 75.857], [22.7482, 75.8829]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_3107cdfc764e9e5eb25509b846a89b5a);
+        
+    
+            poly_line_6dabaaa6685a39a345567662f0185d6b.bindTooltip(
+                `<div>
+                     State Highway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_fc903d8e1f36dbcfae1d79e4cbd54b0d = L.featureGroup(
+                {}
+            ).addTo(map_258451a4906d509ee51e9f5cab7ff899);
+        
+    
+            var marker_7f855ab031bd0187a538d65b91128fd2 = L.marker(
+                [22.7206, 75.8648],
+                {}
+            ).addTo(feature_group_fc903d8e1f36dbcfae1d79e4cbd54b0d);
+        
+    
+            var icon_c60d3a0822e9390f94ea46290fcbf19b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "train", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7f855ab031bd0187a538d65b91128fd2.setIcon(icon_c60d3a0822e9390f94ea46290fcbf19b);
+        
+    
+            marker_7f855ab031bd0187a538d65b91128fd2.bindTooltip(
+                `<div>
+                     Indore Railway Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c30bfc8ad5065986f770f74a2060cac3 = L.marker(
+                [22.7251, 75.8],
+                {}
+            ).addTo(feature_group_fc903d8e1f36dbcfae1d79e4cbd54b0d);
+        
+    
+            var icon_bad0fc4d78123bc4f92d69fbc960786e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c30bfc8ad5065986f770f74a2060cac3.setIcon(icon_bad0fc4d78123bc4f92d69fbc960786e);
+        
+    
+            marker_c30bfc8ad5065986f770f74a2060cac3.bindTooltip(
+                `<div>
+                     Devi Ahilyabai Holkar Airport
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23b12ca3e5864c55ac5f37ff22da9782 = L.marker(
+                [22.698, 75.8693],
+                {}
+            ).addTo(feature_group_fc903d8e1f36dbcfae1d79e4cbd54b0d);
+        
+    
+            var icon_359b028a5d9489e7101852077bbde6c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_23b12ca3e5864c55ac5f37ff22da9782.setIcon(icon_359b028a5d9489e7101852077bbde6c1);
+        
+    
+            marker_23b12ca3e5864c55ac5f37ff22da9782.bindTooltip(
+                `<div>
+                     Navlakha Bus Stand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_7bf874e32bc8c94b3cfd83c1019e3aef = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_e0e050bd2873f5a674bc921944d037e6,
+                },
+                overlays :  {
+                    "Upcoming Warehouse Projects" : feature_group_55fa31db7b3d6722ca0e780d580fe0d7,
+                    "Logistics Parks" : feature_group_2c1fdbd4526213cf5fb9fc830aa223b7,
+                    "Highways" : feature_group_3107cdfc764e9e5eb25509b846a89b5a,
+                    "Transport Landmarks" : feature_group_fc903d8e1f36dbcfae1d79e4cbd54b0d,
+                },
+            };
+            L.control.layers(
+                layer_control_7bf874e32bc8c94b3cfd83c1019e3aef.base_layers,
+                layer_control_7bf874e32bc8c94b3cfd83c1019e3aef.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_258451a4906d509ee51e9f5cab7ff899);
+        
+</script>
+</html>
